@@ -719,8 +719,31 @@ const MENU_DATA = [
         title: "SAVORY SERIES",
         items: [
           { name: "Egg Mayo", price: "15K", desc: "Soft scrambled egg with creamy mayo, simple and satisfying." },
-          { name: "Kentang Goreng", price: "15K", desc: "Crispy golden fries, perfect for a savory snack." },
           { name: "Chicken Katsu", price: "25K", desc: "Crispy chicken katsu with rich savory sauce.", signature: true, img: PRODUCT_PHOTOS.chickenKatsu },
+        ],
+      },
+    ],
+  },
+  {
+    category: "SNACK",
+    groups: [
+      {
+        title: "SNACK",
+        items: [
+          { name: "Fries(Kentang)", price: "15K", desc: "Crispy golden fries, perfect for a savory snack." },
+        ],
+      },
+    ],
+  },
+  {
+    category: "RICE BOWL",
+    groups: [
+      {
+        title: "RICE BOWL",
+        items: [
+          { name: "Rice Bowl Chicken Katsu", price: "20K", desc: "Crispy chicken katsu served with warm rice and savory sauce." },
+          { name: "Rice Bowl Chicken Black Pepper", price: "18K", desc: "Tender chicken with black pepper flavor over rice." },
+          { name: "Rice Bowl Chicken Barbeque Sauce", price: "18K", desc: "Smoky barbecue chicken served over rice with a rich finish." },
         ],
       },
     ],
@@ -767,7 +790,7 @@ const MENU_DATA = [
   },
 ];
 
-const CATEGORIES = ["ALL", "TOAST", "NOODLES", "COFFEE", "NON COFFEE"];
+const CATEGORIES = ["ALL", "TOAST", "SNACK", "RICE BOWL", "NOODLES", "COFFEE", "NON COFFEE"];
 
 /* ============================================================
    HOOK: reveal on scroll
